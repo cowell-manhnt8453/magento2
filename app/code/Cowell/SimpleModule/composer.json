@@ -1,0 +1,26 @@
+{
+    "name": "cowell/module-simplemodule",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "godsofhorn@gmail.com",
+            "name": "M\u1ea1nh Nguy\u1ec5n Ti\u1ebfn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cowell\\SimpleModule\\": ""
+        }
+    }
+}
