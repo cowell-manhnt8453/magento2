@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table comment="cowell_training_students Table" engine="innodb" name="cowell_training_students" resource="default">
+		<column comment="Entity Id" identity="true" name="students_id" nullable="false" padding="6" unsigned="true" xsi:type="smallint"/>
+		<constraint referenceId="PRIMARY" xsi:type="primary">
+			<column name="students_id"/>
+		</constraint>
+		<column length="255" name="name" nullable="true" xsi:type="varchar"/>
+		<column name="address" nullable="true" xsi:type="text"/>
+		<column identity="false" name="age" nullable="true" xsi:type="int"/>
+		<column length="255" name="avatar" nullable="true" xsi:type="varchar"/>
+		<column identity="false" name="status" nullable="true" xsi:type="int"/>
+	</table>
+</schema>

@@ -234,6 +234,8 @@ return [
         'Amazon_Login' => 1,
         'Amazon_Payment' => 1,
         'Cowell_AbandonedCart' => 1,
+        'Cowell_SimpleModule' => 1,
+        'Cowell_Training' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Hiddentechies_Base' => 1,

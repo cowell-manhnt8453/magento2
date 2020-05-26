@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Cowell_Training::students" sortOrder="10" title="students">
+					<resource id="Cowell_Training::students_save" sortOrder="10" title="Save students"/>
+					<resource id="Cowell_Training::students_delete" sortOrder="20" title="Delete students"/>
+					<resource id="Cowell_Training::students_update" sortOrder="30" title="Update students"/>
+					<resource id="Cowell_Training::students_view" sortOrder="40" title="View students"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>
